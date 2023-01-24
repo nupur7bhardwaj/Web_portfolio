@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, intial-scale=1.0">
+            <title>Personal Portfolio Website</title>
+            <link rel="stylesheet" href="style.css">
+            <script src="https://kit.fontawesome.com/8a9d939100.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div id="header">
+            <div class="conatiner">
+                <nav>
+                    
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">PORTFOILIO</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                    </ul>
+                </nav>
+                
+
+                <div class="header-text">
+                    <p>Full Stack Developer</p>
+                    <h1>Hi, I'm <span>Nupur Bhardwaj</span><br>  Living in Finland <span><br>I am from India</span></h1>
+                    <img src="images/Logo_nup.jpg" alt="logo"/>
+                </div>
+            </div>
+<!-----------about------------------>
+        </div>
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="Images/portfolio_pic.jpg" alt="aboutpic">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>I am a recent graduate full stack developer with a year of experience in front-end development using HTML CSS, JavaScript (React), back-end using Java creating independent projects. Also, I have 6+ years of sales and marketing experience in healthcare sector. Strong creative and analytical skills. Team player with an eye for detail.</p>
+                        <div class="tab-tiltles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links"onclick="opentab('education')">Education</p>
+                            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        </div>
+                        <div class="tab-contents active-tab"id="skills">
+                            <ul>
+                                <li><span> Web Developer</span><br>Web application development <br>in front-end, back-end and API</li>
+                                <li><span> Service Designer</span><br>Design Thinking - Service design skills, SEO
+                                    <br>Wireframe Creation- FIGMA, CANVA<br>
+                                </li>
+                                <li><span> Business Analyst</span><br>Analysing sales</li>
+                                <li><span> Project Management Tools-Agile, Jira
+                                </span><br> Using various latest tools to manage my work and perform efficiently.</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span> July 2021-Till now</span><br>Full stack development course <br>at Careerera UK</li>
+                                <li><span> Aug 2022-Dec 2022</span><br>Full stack development course <br>at The Shortcut, Helsinki, FI</li>
+                                <li><span> Sept 2021-Dec 2021</span><br>Service design course <br> at DiversCity- school, Xamk, Kouvola,FI
+                                </li>
+                                <li><span> 2014-2019</span><br>Business Analyst<br> at NIS-Sparta, Mumbai. India</li>
+                                <li><span> 2008-2014</span><br>Bsc Rehablitation Sciences<br> at Delhi Univ., Delhi, India</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span> 2022-Present</span><br>Web Developer(Free Lancer) <br>Developing web based applications as part of free lancing my services<br>and self learning best coding practices.</li>
+                                <li><span> 2021</span><br>Web service design for developing business for physiotherapist Riikka Mustonen /yksityisyrittäjä  in Kouvola, FI
+                                </li>
+                                <li><span> 2014-2019</span><br>Analysing sales and business development with annual targets.<br>Developing buisness channels and data analysing</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-------------------Services-------------------->
+        <div id="services">
+            <div class="container">
+            <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2> Web Design</h2>
+                <p>Front-end, backend, and API services for web base application development.<br>
+                    Tech stack: Java Script, React Freamework, Redux, Scss, <br>HTML:5 with REST API, mysql, and nodejs, Java springboot.
+                    
+                    </p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2> Service Design</h2>
+                <p>Designing services for digital services<br>Application design and layout using FIGMA.<br>
+                    Explaining design using Miro board
+                    </p>
+                    <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-business-time"></i>
+                <h2> Business Analytics</h2>
+                <p>Business data struture and <br>analytics.
+                    </p>
+                    <a href="#">Learn More</a>
+            </div>
+        </div>
+<!-----------------Portfolio--------------------------------------->
+<div id="portfolio">
+    <div class="container">
+       <h1 class="sub-title"> My Work</h1>
+       <div class="work-list">
+        <div class="work">
+            <img src="Images/Lukulab.png">
+            <div class="layer">
+                <h3>Lukulab</h3>
+                <p>Collaborated in a team of three to develop a web-based tool with frontend and backend technologies <br>
+                    for dyslexic’s children learning at - LukuLab (www.LukuLab.com) a Startup company.<br>
+                    I worked with them as a part of my final project for the full stack course.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+
+            </div>
+        </div>
+        <div class="work">
+            <img src="Images/Screenshot 2022-12-06 at 9.23.48 PM.png">
+        </div>
+        <div class="work">
+            <img src="Images/Screenshot 2022-12-08 at 9.21.49 AM.png">
+        </div>
+       </div>
+    </div>
+</div>
+
+
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link")
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab")
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+
+
+        </script>
+
+    </body>
+</html>
