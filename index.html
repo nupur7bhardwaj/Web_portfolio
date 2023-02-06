@@ -14,29 +14,31 @@
             <div class="conatiner">
                 <nav>
                     
-                    <ul>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">ABOUT</a></li>
-                        <li><a href="#">SERVICES</a></li>
-                        <li><a href="#">PORTFOILIO</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                    <ul id="sidemenu">
+                        <li><a href="#header">HOME</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="#portfolio">PORTFOLIO</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                        <i class="fa-solid fa-xmark" onClick="closemenu()"></i>
                     </ul>
+                    <i class="fa-solid fa-bars" onClick="openmenu()"></i>
                 </nav>
                 
 
                 <div class="header-text">
-                    <p>Full Stack Developer</p>
-                    <h1>Hi, I'm <span>Nupur Bhardwaj</span><br>  Living in Finland <span><br>I am from India</span></h1>
-                    <img src="images/Logo_nup.jpg" alt="logo"/>
+                    <p>Full-stack Developer</p>
+                    <h1>Hi, I'm Nupur <span><br>Bhardwaj</span></h1>
+                    <img src="images/image_logo_2.png" alt="logo"/>
                 </div>
             </div>
-<!-----------about------------------>
         </div>
+<!-----------about------------------>
         <div id="about">
             <div class="container">
                 <div class="row">
                     <div class="about-col-1">
-                        <img src="Images/portfolio_pic.jpg" alt="aboutpic">
+                        <img src="Images/Contact-Forum-20234718.JPG" alt="aboutpic">
                     </div>
                     <div class="about-col-2">
                         <h1 class="sub-title">About Me</h1>
@@ -48,13 +50,13 @@
                         </div>
                         <div class="tab-contents active-tab"id="skills">
                             <ul>
-                                <li><span> Web Developer</span><br>Web application development <br>in front-end, back-end and API</li>
-                                <li><span> Service Designer</span><br>Design Thinking - Service design skills, SEO
-                                    <br>Wireframe Creation- FIGMA, CANVA<br>
+                                <li><span> Web Developer</span><br> Web application development <br> in front-end, back-end and API </li>
+                                <li><span> Service Designer</span><br> Design Thinking - Service design skills, SEO
+                                    <br> Wireframe Creation- FIGMA, CANVA <br>
                                 </li>
-                                <li><span> Business Analyst</span><br>Analysing sales</li>
+                                <li><span> Business Analyst</span><br> Analysing sales </li>
                                 <li><span> Project Management Tools-Agile, Jira
-                                </span><br> Using various latest tools to manage my work and perform efficiently.</li>
+                                </span><br> Using various latest tools to manage my work and perform efficiently. </li>
                             </ul>
                         </div>
                         <div class="tab-contents" id="education">
@@ -119,26 +121,68 @@
             <img src="Images/Lukulab.png">
             <div class="layer">
                 <h3>Lukulab</h3>
-                <p>Collaborated in a team of three to develop a web-based tool with frontend and backend technologies <br>
-                    for dyslexic’s children learning at - LukuLab (www.LukuLab.com) a Startup company.<br>
-                    I worked with them as a part of my final project for the full stack course.
+                <p>Collaborated web-based tool <br>
+                    for dyslexic children learning at - LukuLab (www.LukuLab.com) <br>
                     </p>
                     <a href="#"><i class="fa-solid fa-link"></i></a>
-
             </div>
         </div>
         <div class="work">
             <img src="Images/Screenshot 2022-12-06 at 9.23.48 PM.png">
+            <div class="layer">
+                <h3>Lukulab Exercise Game Template 1</h3>
+                <p>A prototype design of game for learning purpose.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
         </div>
         <div class="work">
             <img src="Images/Screenshot 2022-12-08 at 9.21.49 AM.png">
+            <div class="layer">
+                <h3>Lukulab Exercise Game Template 2</h3>
+                <p>A prototype design of game for learning purpose.
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
         </div>
        </div>
+       <a href="#" class="btn"> See More</a>
     </div>
 </div>
-
-
         </div>
+       <!-----------------Contact--------------------------------------->
+    <div id="contact-left">
+        <div class="container">
+            <div class="row">
+                <div class="contact-row">
+                    <h1 class="sub-title"> Contact Me </h1>
+                    <p> <i class="fa-sharp fa-solid fa-paper-plane-top"></i> nupur.7bhardwaj@gmail.com </p>
+                    <p> <i class="fa-solid fa-phone"></i> +358466214003 </p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/nupur-bhardwaj-807108180/"><i class="fa-brands fa-linkedin"></i></i></a> 
+                        <a href="https://github.com/nupur7bhardwaj"><i class="fa-brands fa-github"></i></i></a>
+                        <a href="https://www.facebook.com/nupur.bhardwaj.18"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <a href="Images/Nupur_FullStack_31.1.2023_CV.pdf" downlaoad class="btn btn2" >Download CV</a>
+                    </div>
+                <div class="contact-right">
+                    <form name  ="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i> Nupur. Made with<i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+        </div>
+    </div>
+
+
         <script>
             var tablinks = document.getElementsByClassName("tab-links");
             var tabcontents = document.getElementsByClassName("tab-contents");
@@ -152,10 +196,38 @@
                 event.currentTarget.classList.add("active-link");
                 document.getElementById(tabname).classList.add("active-tab");
             }
-
-
-
         </script>
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu(  ){
+                sidemenu.style.right= "0";
+            }
+            function closemenu(  ){
+                sidemenu.style.right= "-200px";
+            }
+        </script>
+        
+          
+          
+          <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbyYoiZXiDU9Qbj-d6crfRIchiiIZq9qaLfc8Q0L_-FnL3JnBO2_7nog-zTCyVFFBxYJ/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
 
     </body>
 </html>
