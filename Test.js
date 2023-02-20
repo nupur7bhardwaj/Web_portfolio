@@ -2,7 +2,7 @@
 // Then calculate sum of all the elements
 
 
-let number = [7,9,4,8,2];
+/*let number = [7,9,4,8,2];
 console.log("length of array is: ",number.length);
 console.log("unsorted array is: ",number);
 
@@ -13,7 +13,7 @@ var k;    // var used in summation loop
 var temp; // temporary variable used for interchage logic
 
 
-    for (i = 0 ; i<  5;  ++i) 
+   /* for (i = 0 ; i<  5;  ++i) 
     {
        for (j = i +1; j < 5; ++j)
        {
@@ -45,9 +45,24 @@ var temp; // temporary variable used for interchage logic
 //
 //loop runs from 0 to 4
 ///////////////////////////
-let summation=0;
+/*let summation=0;
  for ( k= 0; k< 5 ; k++)
  {
     summation += number[k];
  }
- console.log("sum using loop = ", summation);
+ console.log("sum using loop = ", summation);*/
+
+ //WAP to find out wheather the number is odd or even?//
+
+ let num = [1,2,3,4,5,6,7,8,9,];
+
+console.log('even numbers are');
+for (var i = 1 ; i < 10 ; i += 2 ) {
+   console.log(i);
+}
+
+
+console.log('odd numbers are ');
+for (var i = 2 ; i < 10 ; i += 2 ) {
+  console.log(i);
+}
